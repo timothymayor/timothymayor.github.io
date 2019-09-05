@@ -4,234 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>MyCV</title>
-    <style>
-        body {
-            background-color: #FF5733;
-            margin: 0px;
-            font-family: Verdana, Georgia, 'Times New Roman', serif;
-            font-size: 14px;
-        }
+    <link rel="stylesheet" type="text/css" href="myStyle.css">
 
-        #header {
-            background-color: #5c755e;
-            margin: 10px;
-            height: 90px;
-            border-radius: 5px;
-        }
-
-        /*
-img {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    max-height: 100%;
-}
-*/
-        #navbar ul {
-            padding: 5px;
-            list-style-type: none;
-            text-align: center;
-            background-color: #000;
-            margin: 10px;
-            border-radius: 5px;
-        }
-
-        #navbar ul li {
-            display: inline;
-        }
-
-        #navbar ul li a {
-            text-decoration: none;
-            font-family: Arial, Helvetica, sans-serif;
-            padding: .2em 1em;
-            color: #fff;
-            background-color: #000;
-        }
-
-        #navbar ul li a:hover {
-            background-color: #fff;
-            color: #000
-        }
-
-        .main {
-            background-color: #e5e4d7;
-            margin: 10px;
-            border-radius: 5px;
-            padding: 10px;
-            font-size: 110%
-        }
-
-        h1 {
-            font-size: 150%;
-            color: #ce282e;
-            text-align: center
-        }
-
-        h2 {
-            font-size: 250%;
-            text-align: center;
-            color: #e5e4d7;
-            font-family: "Century Gothic", "Gill Sans", Arial sans-serif;
-            margin: 0px;
-            position: relative;
-            top: 50%;
-            -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-        }
-
-        h3 {
-            font-size: 120%;
-            color: darkblue;
-        }
-
-        .abilities {
-            -webkit-columns: 3 150px;
-            -moz-columns: 3 150px;
-            columns: 3 150px;
-            -webkit-column-gap: 5em;
-            -moz-column-gap: 5em;
-            column-gap: 5em;
-            -webkit-column-rule-width: 4px;
-            -moz-column-rule-width: 4px;
-            column-rule-width: 4px;
-            -webkit-column-rule-color: #e74c3c;
-            -moz-column-rule-color: #e74c3c;
-            column-rule-color: #e74c3c;
-        }
-
-
-    .form-style-2{
-	max-width: 500px;
-	padding: 20px 12px 10px 20px;
-	font: 13px Arial, Helvetica, sans-serif;
-    display: inline; 
-}
-.form-style-2-heading{
-	font-weight: bold;
-	font-style: italic;
-	border-bottom: 2px solid #ddd;
-	margin-bottom: 20px;
-	font-size: 15px;
-	padding-bottom: 3px;
-}
-.form-style-2 label{
-	display: block;
-	margin: 0px 0px 15px 0px;
-}
-.form-style-2 label > span{
-	width: 100px;
-	font-weight: bold;
-	float: left;
-	padding-top: 8px;
-	padding-right: 5px;
-}
-.form-style-2 span.required{
-	color:red;
-}
-.form-style-2 .tel-number-field{
-	width: 40px;
-	text-align: center;
-}
-.form-style-2 input.input-field, .form-style-2 .select-field{
-	width: 48%;	
-}
-.form-style-2 input.input-field, 
-.form-style-2 .tel-number-field, 
-.form-style-2 .textarea-field, 
- .form-style-2 .select-field{
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	border: 1px solid #C2C2C2;
-	box-shadow: 1px 1px 4px #EBEBEB;
-	-moz-box-shadow: 1px 1px 4px #EBEBEB;
-	-webkit-box-shadow: 1px 1px 4px #EBEBEB;
-	border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	padding: 7px;
-	outline: none;
-}
-.form-style-2 .input-field:focus, 
-.form-style-2 .tel-number-field:focus, 
-.form-style-2 .textarea-field:focus,  
-.form-style-2 .select-field:focus{
-	border: 1px solid #0C0;
-}
-.form-style-2 .textarea-field{
-	height:100px;
-	width: 55%;
-}
-.form-style-2 input[type=submit],
-.form-style-2 input[type=button]{
-	border: none;
-	padding: 8px 15px 8px 15px;
-	background: #FF8500;
-	color: #fff;
-	box-shadow: 1px 1px 4px #DADADA;
-	-moz-box-shadow: 1px 1px 4px #DADADA;
-	-webkit-box-shadow: 1px 1px 4px #DADADA;
-	border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-}
-.form-style-2 input[type=submit]:hover,
-.form-style-2 input[type=button]:hover{
-	background: #EA7B00;
-	color: #fff;
-}
-
-        #footer {
-            background-color: #5c755e;
-            margin: 10px;
-            height: 60px;
-            border-radius: 5px;
-            color: #efe5d0;
-            text-align: center;
-            padding: 15px;
-            font-size: 90%;
-        }
-/*
-        #footer ul {
-            padding: 5px;
-            list-style-type: none;
-            text-align: center;
-            margin: 10px;
-            border-radius: 5px;
-        }
-
-        #footer ul li {
-            display: inline;
-        }
-
-        #footer ul li a {
-            text-decoration: none;
-            font-family: Arial, Helvetica, sans-serif;
-            padding: .2em 1em;
-            color: #efe5d0;
-            background-color: #5c755e;
-        }
-
-        #footer ul li a:hover {
-            background-color: #fff;
-            color: #000
-        }
-*/
-        #footer p {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 150%;
-            margin: 10px
-        }
-    </style>
 </head>
 
 <body>
 
     <div id="header">
-        <!--
-        <img src="https://res.cloudinary.com/tmayor/image/upload/v1566639151/myHNGinternship/myP_r4qejl.jpg" />
-        -->
         <h2>TIMOTHY STEPHEN MAYOR</h2>
     </div>
 
@@ -243,7 +22,6 @@ img {
             <li><a href="#experience">Experience</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#education">Education</a></li>
-            <!--<li><a href="">Blog</a></li>-->
             <li><a href="#contact">Contact</a></li>
         </ul>
 
@@ -391,14 +169,12 @@ img {
         <h1 id="skills">SKILLS / ABILITIES</h1>
         <p>
             <ul>
-                <li>Digital Analytics: Google Analytics, Kissmetrics, Piwik, Mixpanel</li>
-                <li>Digital Marketing: Mobile Marketing, Social Media Marketing, Search Engine Optimization, Display
-                    Advertising, Search
-                    Engine Marketing</li>
-                <li>Email Marketing: MailChimp, Constant Contact, GetResponse, Survey Monkey</li>
-                <li>Content Management Systems: WordPress, Drupal</li>
-                <li>Social Media Management: Hootsuite, Buffer, SproutSocial</li>
-                <li>General Computing: Microsoft Office Suites, Microsoft Project</li>
+                <li>Digital Marketing: <progress min="0" max="100" value="98"></progress></li><br />
+                <li>HTML: <progress min="0" max="100" value="93"></progress></li><br />
+                <li>CSS: <progress min="0" max="100" value="85"></progress></li><br />
+                <li>JavaScript: <progress min="0" max="100" value="65"></progress></li><br />
+                <li>PHP: <progress min="0" max="100" value="30"></progress></li><br />
+                <li>WordPress: <progress min="0" max="100" value="95"></progress></li>
             </ul>
         </p>
     </div>
@@ -419,52 +195,24 @@ img {
 
     <div class="main">
         <h1 id="contact">CONTACT</h1>
-        <div class="form-style-2">
-            <div class="form-style-2-heading">Provide your information</div>
-            <form action="" method="post">
-                <label for="field1"><span>Name: <span class="required">*</span></span><input type="text" class="input-field"
-                        name="field1" value="" /></label>
-                <label for="field2"><span>Email: <span class="required">*</span></span><input type="text" class="input-field"
-                        name="field2" value="" /></label>
-                <label><span>Telephone:</span><input type="text" class="tel-number-field" name="tel_no_1" value=""
-                        maxlength="4" />-<input type="text" class="tel-number-field" name="tel_no_2" value=""
-                        maxlength="4" />-<input type="text" class="tel-number-field" name="tel_no_3" value=""
-                        maxlength="10" /></label>
-                <label for="field4"><span>Purpose:</span><select name="field4" class="select-field">
-                        <option value="General Question">General Enquiry</option>
-                        <option value="Web Development">Web Development</option>
-                        <option value="Mobile Development">Mobile Development</option>
-                        <option value="Data Engineering">Data Engineering</option>
-                        <option value="Cloud Engineering">Cloud Engineering</option>
-                    </select></label>
-                <label for="field5"><span>Message: <span class="required">*</span></span><textarea name="field5"
-                        class="textarea-field"></textarea></label>
-        
-                <label><span> </span><input type="submit" value="Submit" /></label>
+            <form action="" name="formDetails" method="POST" onsubmit="submitForm()">
+                <input name="name" placeholder="Name" type="text" minlength="4" required /><br />
+                <input name="email" placeholder="Email" type="email" required /><br />
+                <input name="title" placeholder="Title" type="text" required /><br />
+                <textarea name="message" placeholder="Message" minlength="20" required></textarea>
+                <input type="submit" value="SUBMIT" class="submit" />
             </form>
-        </div>
-
     </div>
 
     <div id="footer">
-    <!--   <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Experience</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Education</a></li>
-            <!--<li><a href="">Blog</a></li>
-            <li><a href="">Contact</a></li>
-        </ul> 
-    -->
         <p>
             19 Awe Street, Ago Palace Way, Okota, Isolo, Lagos. | 08107098061 | timothymayor24@gmail.com
         </p>
 
         &copy; 2019 Timothy Stephen Mayor. All Rights Reserved.
-
     </div>
 
-</body>
+    <script src="script.js"></script>
 
+</body>
 </html>
