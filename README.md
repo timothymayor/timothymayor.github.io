@@ -1,3 +1,6 @@
-# My CV is deployed on the following platforms
-timothymayor.github.io
-https://timothymayor.herokuapp.com/
+# My CV is deployed on the following platforms - 
+
+1. https://timothymayor.github.io/;
+
+2. https://timothymayor.herokuapp.com/
+
