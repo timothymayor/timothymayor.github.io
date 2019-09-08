@@ -90,7 +90,7 @@ body {
         }
         .submit {
             background-color: #ce282e;
-            padding: 10px;
+            padding: 15px;
             border-radius: 5px;
             cursor: pointer;
             color: #ffffff;
@@ -99,9 +99,27 @@ body {
             margin: 0;
             font-weight: bold;
         }
+
+        .button {
+            background-color: #ce282e;
+            padding: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            color: #ffffff;
+            border: none;
+            outline: none;
+            margin: 0;
+            font-weight: bold;
+        }
+
         .submit:hover {
             background-color: #FF5733;
         }
+
+        .button:hover {
+            background-color: #FF5733;
+        }
+
         textarea {
             height: 100px;
         }

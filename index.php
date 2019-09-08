@@ -195,13 +195,13 @@
 
     <div class="main">
         <h1 id="contact">CONTACT</h1>
-            <form action="" name="formDetails" method="POST" onsubmit="submitForm()">
-                <input name="name" placeholder="Name" type="text" minlength="4" required /><br />
-                <input name="email" placeholder="Email" type="email" required /><br />
-                <input name="title" placeholder="Title" type="text" required /><br />
-                <textarea name="message" placeholder="Message" minlength="20" required></textarea>
-                <input type="submit" value="SUBMIT" class="submit" /> 
-            </form>
+        <form class="contact-form" action="contactform.php" method="POST">
+            <input name="name" placeholder="Name" type="text" minlength="4" required /><br />
+            <input name="email" placeholder="Email" type="email" required /><br />
+            <input name="title" placeholder="Title" type="text" required /><br />
+            <textarea name="message" placeholder="Message" minlength="20" required></textarea>
+            <button type="submit" name="submit">SUBMIT</button>
+        </form>
     </div>
 
     <div id="footer">
@@ -216,5 +216,5 @@
     <script src="script.js"></script>
 
 </body>
-</html>
 
+</html>
